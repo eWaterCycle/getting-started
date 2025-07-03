@@ -1,6 +1,17 @@
-(intro)=
-# Welcome to the Template Book
+# Welcome to the quick start for eWaterCycle
 
-_This is the first page the student will see when opening the url._
+The workflow of eWaterCycle, usually, goes as follows:
+Choose region/design experiment $\rightarrow$ get forcing $\rightarrow$ setup model $\rightarrow$ analyse results.
 
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+[TO DO]
+- Why eWaterCycle
+- How to work with eWaterCycle
+
+- Choosing a region
+  - Getting Forcing
+- Choosing a model
+
+- Types of workflow
+  - Climate change
+  - Flooding
+  - Discharge modelling

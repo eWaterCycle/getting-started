@@ -7,25 +7,21 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
-    - file: exercises.md
+    - file: some_content/generate_forcing.md
       sections:
-      - file: exercises/001.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/005a.md
-      - file: exercises/006.md
-      - file: exercises/summary
-    - file: syntax_exercises.md
+      - file: some_content/caravan_forcing.ipynb
+      - file: some_content/era5_forcing.ipynb
+      - file: some_content/cmip_historic.ipynb
+      - file: some_content/cmip_future.ipynb
+      - file: some_content/manual_forcing.ipynb
+
+
+    - file: some_content/workflows.md
       sections:
-      - file: syntax_exercises/007.md
-      - file: syntax_exercises/008.md
-      - file: syntax_exercises/009.md
-      - file: syntax_exercises/010.md
-      - file: syntax_exercises/011.md
-      - file: syntax_exercises/012.md
-      - file: syntax_exercises/013.md
+      - file: some_content/climate_change.ipynb
+      - file: some_content/discharge.ipynb
+      - file: some_content/flooding.ipynb
+
     - file: references.md
     - file: changelog.md
     - file: credits.md
