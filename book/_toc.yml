@@ -2,7 +2,7 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Getting Started With eWaterCycle
     chapters:
     - file: some_content/why.md
       sections:
