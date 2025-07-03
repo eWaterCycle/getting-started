@@ -1,4 +1,4 @@
-# Different type of workflows
+# Different Types of Workflows
 
 ## Climate Change
 

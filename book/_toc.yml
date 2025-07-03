@@ -4,23 +4,26 @@ root: intro.md
 parts:
   - caption: Contents
     chapters:
-    - file: some_content/overview.md
+    - file: some_content/why.md
       sections:
-      - file: some_content/text_and_code.ipynb
+      - file: some_content/why/what.md
+      - file: some_content/why/sowhat.md
+
+
     - file: some_content/generate_forcing.md
       sections:
-      - file: some_content/caravan_forcing.ipynb
-      - file: some_content/era5_forcing.ipynb
-      - file: some_content/cmip_historic.ipynb
-      - file: some_content/cmip_future.ipynb
-      - file: some_content/manual_forcing.ipynb
+      - file: some_content/forcing/caravan_forcing.ipynb
+      - file: some_content/forcing/era5_forcing.ipynb
+      - file: some_content/forcing/cmip_historic.ipynb
+      - file: some_content/forcing/cmip_future.ipynb
+      - file: some_content/forcing/manual_forcing.ipynb
 
 
     - file: some_content/workflows.md
       sections:
-      - file: some_content/climate_change.ipynb
-      - file: some_content/discharge.ipynb
-      - file: some_content/flooding.ipynb
+      - file: some_content/workflows/climate_change.ipynb
+      - file: some_content/workflows/discharge.ipynb
+      - file: some_content/workflows/flooding.ipynb
 
     - file: references.md
     - file: changelog.md
