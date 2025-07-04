@@ -10,15 +10,16 @@ It is meant to be used as a teachbook, which can be found [here](https://www.ewa
   - So Why Use eWaterCycle?
 - First Model Run
   - Interface
-  - Getting Forcing Data
   - Running an HBV Model
+    - Getting Forcing Data
+    - Different Models
 - Workflows
-  - Climate change
-    - Regional
-    - Study of a Bigger Area
   - Flooding
   - Drought
   - Discharge
+  - Climate change
+    - Regional
+    - Study of a Bigger Area
 
 
 
