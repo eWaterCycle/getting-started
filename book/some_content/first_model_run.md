@@ -1,4 +1,4 @@
-# First Model Run
+# Hello World: First Model Run
 
 Here we will go through a first model run with eWaterCycle. 
 First we will walk you through the interface of eWaterCycle, which is a Jupyter Hub.
@@ -31,6 +31,6 @@ They also differ per model, so you will have to check the documentation of the m
 
 ### Different Models
 
-Here we will show you the different models that are available in eWaterCycle.
+Here we will show you the different models that are available in eWaterCycle and how to set them up.
 And how to change the model you want to use in your Jupyter notebook.
 **NOTE** we will not be running the models here.

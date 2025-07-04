@@ -13,13 +13,19 @@ parts:
       sections:
       - file: some_content/first_model_run/interface.ipynb
       - file: some_content/first_model_run/first_run.ipynb
-      - file: some_content/first_model_run/generate_forcing.md
-        sections:
-        - file: some_content/first_model_run/forcing/caravan_forcing.ipynb
-        - file: some_content/first_model_run/forcing/era5_forcing.ipynb
-        - file: some_content/first_model_run/forcing/cmip_historic.ipynb
-        - file: some_content/first_model_run/forcing/cmip_future.ipynb
-        - file: some_content/first_model_run/forcing/manual_forcing.ipynb
+
+    - file: some_content/first_model_run/generate_forcing.md
+      sections:
+      - file: some_content/first_model_run/forcing/caravan_forcing.ipynb
+      - file: some_content/first_model_run/forcing/era5_forcing.ipynb
+      - file: some_content/first_model_run/forcing/cmip_historic.ipynb
+      - file: some_content/first_model_run/forcing/cmip_future.ipynb
+      - file: some_content/first_model_run/forcing/manual_forcing.ipynb
+    - file: some_content/first_model_run/different_models.md
+      sections:
+        - file: some_content/first_model_run/models/hbv.ipynb
+        - file: some_content/first_model_run/models/pcrglobwb.ipynb
+        - file: some_content/first_model_run/models/wflow.ipynb
 
 
     - file: some_content/workflows.md

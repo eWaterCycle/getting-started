@@ -10,13 +10,23 @@ It is meant to be used as a teachbook, which can be found [here](https://www.ewa
   - So Why Use eWaterCycle?
 - First Model Run
   - Interface
-  - Running an HBV Model
-    - Getting Forcing Data
-    - Different Models
+  - Hello World: Running an HBV Model
+- Different Forcing Data Generation
+  - Caravan forcing data
+  - ERA5 reanalysis
+    - Shapefile you made yourself
+    - Shapefile from Caravan dataset
+  - CMIP6 historical data
+  - Manual data input
+- Different Models
+  - HBV
+  - PCRGlobWB
+  - Wflow
 - Workflows
-  - Flooding
-  - Drought
-  - Discharge
+  - Default Workflow
+    - Flooding
+    - Drought
+    - Discharge
   - Climate change
     - Regional
     - Study of a Bigger Area
