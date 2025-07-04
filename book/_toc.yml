@@ -9,14 +9,14 @@ parts:
       - file: some_content/why/what.md
       - file: some_content/why/sowhat.md
 
-
-    - file: some_content/generate_forcing.md
-      sections:
-      - file: some_content/forcing/caravan_forcing.ipynb
-      - file: some_content/forcing/era5_forcing.ipynb
-      - file: some_content/forcing/cmip_historic.ipynb
-      - file: some_content/forcing/cmip_future.ipynb
-      - file: some_content/forcing/manual_forcing.ipynb
+    - file:
+      - file: some_content/first_model_run/generate_forcing.md
+        sections:
+        - file: some_content/first_model_run/forcing/caravan_forcing.ipynb
+        - file: some_content/first_model_run/forcing/era5_forcing.ipynb
+        - file: some_content/first_model_run/forcing/cmip_historic.ipynb
+        - file: some_content/first_model_run/forcing/cmip_future.ipynb
+        - file: some_content/first_model_run/forcing/manual_forcing.ipynb
 
 
     - file: some_content/workflows.md
