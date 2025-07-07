@@ -23,14 +23,3 @@ You also need basic knowledge of Python to be able to use eWaterCycle.
 Here we will pick a catchment and run an HBV model with forcing data.
 To show you how eWaterCycle works in practice.
 This is a simple example, but it will give you an idea of how to use eWaterCycle.
-
-### Getting Forcing Data
-
-There are different ways to get forcing data for your model run that are supported by eWaterCycle.
-They also differ per model, so you will have to check the documentation of the model you want to use.
-
-### Different Models
-
-Here we will show you the different models that are available in eWaterCycle and how to set them up.
-And how to change the model you want to use in your Jupyter notebook.
-**NOTE** we will not be running the models here.

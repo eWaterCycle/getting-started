@@ -13,14 +13,31 @@ After the forcing is generated the user can use different workflows, explained [
 
 ## Contents
 [TO DO]
-- Why eWaterCycle
-- How to work with eWaterCycle
-
-- Choosing a region
-  - Getting Forcing
-- Different Model Needs
-
-- Types of workflow
+- Why eWaterCycle?
+  - What is eWaterCycle?
+  - So Why Use eWaterCycle?
+- First Model Run
+  - Interface
+  - Hello World: Running an HBV Model
+- Different Forcing Data Generation
+  - Caravan forcing data
+  - ERA5 reanalysis
+    - Shapefile you made yourself
+    - Shapefile from Caravan dataset
+  - CMIP6 historical data
+  - CMIP6 future data
+  - Manual data input
+- Different Models
+  - HBV
+  - PCRGlobWB
+  - Wflow
+- Workflows
+  - Default Workflow
+    - Discharge
+      - Flooding
+      - Drought
   - Climate change
-  - Flooding
-  - Discharge modelling
+    - Regional
+    - Study of a Bigger Area
+  - Calibrating Models
+    - HBV
