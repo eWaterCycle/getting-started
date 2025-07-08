@@ -18,6 +18,7 @@ The input for different models differ, a quick example of using eWaterCycle can 
 It explains the default workflow quickly and from there you can make alterations.
 
 Once you understand the basics you [change the region](link naar shapefiles) and change the model you use.
+Analyzing your results will depend on your workflow, but some examples can be found in the [workflows](https://www.ewatercycle.org/getting-started/main/some_content/workflows.html).
 For advanced workflows one can also couple models.
 
 More info on the different models that we support and what they need can be found [here]().
