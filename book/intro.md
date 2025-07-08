@@ -39,7 +39,7 @@ After the forcing is generated the user can use different workflows, explained [
   - Interface
   - Hello World: Running an HBV Model
 - Different Forcing Data Generation
-  - Caravan forcing data
+  - Camels Forcing using Caravan
   - ERA5 reanalysis
     - Shapefile you made yourself
     - Shapefile from Caravan dataset
