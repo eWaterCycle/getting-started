@@ -39,6 +39,7 @@ sphinx:                                              # Options passed on to the 
       chtml: {
         mtextInheritFont: true                       # To typeset text within math prettier
       }
+    inverter_all: false
   extra_extensions:                                  # Gives you a starter package of extensions to use in your book
     - jupyterbook_patches                            # Patches by TeachBooks https://github.com/TeachBooks/JupyterBook-Patches
     - download_link_replacer                         # Allows you to replace and add downloadable files to a page header https://teachbooks.io/manual/external/Download-Link-Replacer/README.html
