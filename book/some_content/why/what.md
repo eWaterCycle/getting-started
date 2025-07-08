@@ -20,3 +20,6 @@ The coupling of models paired with our seamless integration of data sources, vis
 
 The platform is designed with researchers in mind, enabling both simple experiments and complex coupled simulations.
 
+## More Technical Details
+
+eWaterCycle uses object-oriented programming, meaning that the data and models are objects.

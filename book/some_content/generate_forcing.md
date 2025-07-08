@@ -9,4 +9,5 @@ Every model needs forcing data, there are several possible ways to get this forc
   - Shapefile you made yourself
   - Shapefile from Caravan dataset
 - CMIP6 historical data
+- CMIP6 future data
 - Manual data input
