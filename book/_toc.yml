@@ -17,7 +17,8 @@ parts:
     - file: some_content/generate_forcing.md
       sections:
       - file: some_content/forcing/caravan_forcing.ipynb
-      - file: some_content/forcing/era5_forcing.ipynb
+      - file: some_content/forcing/era5_forcing_caravan_shapefile.ipynb
+      - file: some_content/forcing/era5_forcing_own_shapefile.ipynb
       - file: some_content/forcing/cmip_historic.ipynb
       - file: some_content/forcing/cmip_future.ipynb
       - file: some_content/forcing/manual_forcing.ipynb

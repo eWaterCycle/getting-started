@@ -29,6 +29,11 @@ After the forcing is generated the user can use different workflows, explained [
 ### Youtube video of eWaterCycle 1.0 (currently 2.4)
 [![Youtube video of eWaterCycle 1.0 (currently 2.4)](https://img.youtube.com/vi/eE75dtIJ1lk/0.jpg)](https://www.youtube.com/watch?v=eE75dtIJ1lk)
 
+### How To Get On eWaterCycle
+
+Follow the rocket in the top right: ![launch button](figures/jupyterHub_launch.png) and click on JupyterHub.
+This will take you to ![](figures/startup.png) where you need to click Jupyter.
+From here you need to use your login.
 
 ## Contents
 [TO DO]
