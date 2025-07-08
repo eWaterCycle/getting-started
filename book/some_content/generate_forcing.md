@@ -11,3 +11,19 @@ Every model needs forcing data, there are several possible ways to get this forc
 - CMIP6 historical data
 - CMIP6 future data
 - Manual data input
+
+eWaterCycle supports different types of forcings, currently it supports:
+* CaravanForcing
+* DistributedMakkinkForcing
+* DistributedUserForcing
+* GenericDistributedForcing
+* GenericLumpedForcing
+* HypeForcing
+* LisfloodForcing
+* LumpedMakkinkForcing
+* LumpedUserForcing
+* MarrmotForcing
+* PCRGlobWBForcing
+* WflowForcing
+
+The type of forcing needed is model dependent!
