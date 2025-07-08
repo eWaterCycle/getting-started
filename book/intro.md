@@ -25,6 +25,10 @@ Generating the forcing data is done shown [here]().
 This is the same for every model only the user needs to know what type of forcing and variables are needed for their chosen model(s).
 After the forcing is generated the user can use different workflows, explained [here]().
 
+### Youtube video of eWaterCycle 1.0 (currently 2.4)
+[![Youtube video of eWaterCycle 1.0 (currently 2.4)](https://img.youtube.com/vi/eE75dtIJ1lk/0.jpg)](https://www.youtube.com/watch?v=eE75dtIJ1lk)
+
+
 ## Contents
 [TO DO]
 - Why eWaterCycle?
