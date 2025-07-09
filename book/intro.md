@@ -31,8 +31,9 @@ After the forcing is generated the user can use different workflows, explained [
 
 ### How To Get On eWaterCycle
 
-Follow the rocket in the top right: ![launch button](figures/jupyterHub_launch.png) and click on JupyterHub.
-This will take you to ![](figures/startup.png) where you need to click Jupyter.
+Follow the rocket in the top right: ![launch button](figures/jupyterHub_launch.png) and click on JupyterHub. 
+(Note: this has to be inside a jupyter notebook page on teachbooks)
+This will take you to ![eWC startup page](figures/startup.png) where you need to click Jupyter.
 From here you need to use your login.
 
 ## Contents
