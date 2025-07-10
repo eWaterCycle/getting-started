@@ -1,5 +1,34 @@
 # Different Models
 
-Here we will show you the different models that are available in eWaterCycle and how to set them up.
-And how to change the model you want to use in your Jupyter notebook.
-**NOTE** we will not be running the models here.
+Here we will show you the different models that are available in eWaterCycle and what their needs and benefits are.
+**NOTE** the following notebooks are from their respective github pages and are not meant for this getting started guide specifically.
+
+## HBV 
+
+HBV (Hydrologiska Byråns Vattenbalansavdelning) is a conceptual hydrological model. For more information on its history, see this [paper](https://hess.copernicus.org/articles/26/1371/2022/).
+The actual model implemented here sit looks most like the original model from [1976](https://urn.kb.se/resolve?urn=urn:nbn:se:smhi:diva-5738).
+
+### Model Needs
+
+
+### Outputs
+
+
+### Benefits
+
+
+
+## PCRGlobWB 
+
+PCRGlobWB
+
+### Model Needs
+
+
+### Outputs
+
+
+### Benefits
+
+
+
