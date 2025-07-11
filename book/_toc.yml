@@ -37,5 +37,4 @@ parts:
       - file: some_content/workflows/flooding.ipynb
 
     - file: references.md
-#    - file: changelog.md
     - file: credits.md
