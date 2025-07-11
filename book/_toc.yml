@@ -26,7 +26,7 @@ parts:
     - file: some_content/different_models.md
       sections:
       - file: some_content/models/external.md
-      - external: https://github.com/eWaterCycle/ewatercycle-hbv/blob/main/docs/example_model_run_HBV_camels_catchment_ERA5_forcing.ipynb
+#      - external: https://github.com/eWaterCycle/ewatercycle-hbv/blob/main/docs/example_model_run_HBV_camels_catchment_ERA5_forcing.ipynb
 #      - external: https://github.com/eWaterCycle/ewatercycle-pcrglobwb/blob/main/docs/Irrigation.ipynb
       - file: some_content/models/wflow.ipynb
 
