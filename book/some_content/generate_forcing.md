@@ -13,18 +13,27 @@ Every model needs forcing data, there are several possible ways to get this forc
 - Manual data input
 
 eWaterCycle supports different types of forcings, currently it supports:
-* CaravanForcing
-* DistributedMakkinkForcing
-* DistributedUserForcing
-* GenericDistributedForcing
-* GenericLumpedForcing
-* HypeForcing
-* LisfloodForcing
-* LumpedMakkinkForcing
-* LumpedUserForcing
-* MarrmotForcing
-* PCRGlobWBForcing
-* WflowForcing
+
+<table>
+  <tr>
+    <td>CaravanForcing</td>
+    <td>DistributedMakkinkForcing</td>
+    <td>DistributedUserForcing</td>
+    <td>GenericDistributedForcing</td>
+  </tr>
+  <tr>
+    <td>GenericLumpedForcing</td>
+    <td>HypeForcing</td>
+    <td>LisfloodForcing</td>
+    <td>LumpedMakkinkForcing</td>
+  </tr>
+  <tr>
+    <td>LumpedUserForcing</td>
+    <td>MarrmotForcing</td>
+    <td>PCRGlobWBForcing</td>
+    <td>WflowForcing</td>
+  </tr>
+</table>
 
 The type of forcing needed is model dependent!
 
