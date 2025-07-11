@@ -1,7 +1,7 @@
 # Different Models
 
 Here we will show you the different models that are available in eWaterCycle and what their needs and benefits are.
-**NOTE** the following notebooks are from their respective github pages and are not meant for this getting started guide specifically.
+**NOTE** the following notebooks are from their respective GitHub pages and are not meant for this getting started guide specifically.
 
 [comment]: <> (-------------------------------------------------------------------------)
 ## HBV 
@@ -48,4 +48,4 @@ PCRGlobWB (PCRaster Global Water Balance) is a large-scale hydrological model wi
 
 ## Wflow
 
-
+Let us start with the documentation of Wflow, which is available [here](https://wflow.readthedocs.io/en/latest/).
