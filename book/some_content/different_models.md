@@ -3,7 +3,6 @@
 Here we will show you the different models that are available in eWaterCycle and what their needs and benefits are.
 **NOTE** the following notebooks are from their respective GitHub pages and are not meant for this getting started guide specifically.
 
-[comment]: <> (-------------------------------------------------------------------------)
 ## HBV 
 
 HBV (Hydrologiska Byråns Vattenbalansavdelning) is a conceptual hydrological model. For more information on its history, see this [paper](https://hess.copernicus.org/articles/26/1371/2022/).
@@ -30,7 +29,6 @@ The actual model implemented here sit looks most like the original model from [1
 
 - Forcing
 
-[comment]: <> (-------------------------------------------------------------------------)
 ## PCRGlobWB 
 
 PCRGlobWB (PCRaster Global Water Balance) is a large-scale hydrological model with official [documentation](https://globalhydrology.nl/research/models/pcr-globwb-1-0/).
@@ -44,7 +42,6 @@ PCRGlobWB (PCRaster Global Water Balance) is a large-scale hydrological model wi
 ### Model Needs
 
 
-[comment]: <> (-------------------------------------------------------------------------)
 
 ## Wflow
 
