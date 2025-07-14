@@ -157,9 +157,13 @@ Sub-grid variability is taken into account as follows:
 
 ### Benefits
 
+- more detailed results
 
 ### Outputs
 
+- daily discharge
+- ground water
+- 
 
 ### Model Needs
 
