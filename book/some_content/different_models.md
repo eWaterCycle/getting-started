@@ -129,9 +129,31 @@ With the abbreviations:
   - Ks: Slow runoff recession coefficient
   - Fm: Snowmelt factor
 
-## PCRGlobWB 
+## PCRGlobWB 1.0
 
 PCRGlobWB (PCRaster Global Water Balance) is a large-scale hydrological model with official [documentation](https://globalhydrology.nl/research/models/pcr-globwb-1-0/).
+[eWaterCycle documentation](https://ewatercycle.readthedocs.io/en/1.3.0/examples/pcrglobwb.html).
+
+PCR-GLOBWB is a large-scale hydrological model intended for global to regional studies and developed at the Department of Physical Geography, Utrecht University (Netherlands). 
+PCR-GLOBWB provides a grid-based representation of terrestrial hydrology with a typical spatial resolution of less than 50×50 km (currently 0.5° globally) on a daily basis. 
+Similar to other large-scale hydrological models, PCR-GLOBWB is essentially a leaky bucket type of model applied on a cell-by-cell basis. 
+For each grid cell, PCR-GLOBWB uses process-based equations to compute moisture storage in two vertically stacked soil layers as well as the water exchange between the soil and the atmosphere and the underlying groundwater reservoir. 
+Exchange to the atmosphere comprises precipitation, evapotranspiration and snow accumulation and melt, which are all modified by the presence of the canopy and snow cover. 
+The exchange with the underlying groundwater reservoir comprises deep percolation and capillary rise and vertical fluxes are shown in next figure.
+
+![PCRGlobWB schematic](../figures/pcrglobwb/pcrglobwb.jpg)
+*Model concept of PCR-GLOBWB. Left: layers describing the soil hydrology including the canopy, snow cover, soil layers 1 & 2 and the groundwater reservoir 3 as well as the exchange of moisture between them; right: specific runoff components and the direct gains/losses over the drainage network returning discharge along the channel when routed.
+Taken from https://globalhydrology.nl/research/models/pcr-globwb-1-0/*
+
+Sub-grid variability is taken into account as follows:
+
+* fraction of cell covered with  short and tall vegetation;
+* fraction covered with freshwater, being either a river, lake or reservoir;
+* fraction glaciers;
+* sub-grid elevation distribution determining the accumulation and melt rate of snow and ice as well as fraction of the river plain flooded (optional);
+* soil type distribution and its effect on soil hydrological properties;
+* distribution of water-holding capacity of the soil resulting in variable saturation excess overland flow [Improved Arno Scheme, 2] as a result of variations in soil depth, effective porosity and elevation distribution.
+
 
 ### Benefits
 
@@ -141,6 +163,13 @@ PCRGlobWB (PCRaster Global Water Balance) is a large-scale hydrological model wi
 
 ### Model Needs
 
+* Forcing
+  * Precipitation
+  * Temperature
+* [Parameter set](https://ewatercycle.readthedocs.io/en/latest/system_setup.html#prepare-other-parameter-sets)
+  * cloneMap
+  * landmask
+    * there are some presets available on /data/parameter-sets/pcrglobwb_global
 
 
 ## Wflow
