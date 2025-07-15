@@ -43,17 +43,26 @@ parts:
       sections:
       - file: some_content/workflows/running_a_model.md
         sections:
-        - file: some_content/workflows/running_a_model/climate_change.ipynb
-        - file: some_content/workflows/running_a_model/discharge.ipynb
-        - file: some_content/workflows/running_a_model/flooding.ipynb
+        - file: some_content/workflows/running_a_model/flooding.md
+          sections:
+          - external: https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER4.ipynb
+        - file: some_content/workflows/running_a_model/droughts.md
+          sections:
+            -external: https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/CMIP_Future_prediction.ipynb
+        - file: some_content/workflows/running_a_model/climate_change.md
+#          sections:
+#            - external: rolf stuff
+
 
       - file: some_content/workflows/calibrating_models.md
         sections:
           - file: some_content/workflows/calibrating_models/calibrate_hbv.ipynb
+          - external: https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER3OVER_ori.ipynb
+#          - external:
 
       - file: some_content/workflows/comparisons.md
         sections:
-          - file: some_content/workflows/comparisons/1_forcing_multiple_models.ipynb
+          - file: some_content/workflows/comparisons/1_forcing_multiple_models.md
 #            sections:
 #              - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
           - file: some_content/workflows/comparisons/1_model_multiple_forcings.ipynb

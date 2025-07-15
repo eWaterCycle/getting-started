@@ -33,7 +33,7 @@ This video showcases the thought train behind eWaterCycle!
 ### How To Get On eWaterCycle
 
 Follow the rocket in the top right: ![launch button](figures/jupyterHub_launch.png) and click on JupyterHub. 
-(Note: this has to be inside a jupyter notebook page on teachbooks)
+(Note: this has to be inside a jupyter notebook page on teachbooks **NOTE** this cannot be used in external pages yet)
 This will take you to ![eWC startup page](figures/startup.png) where you need to click Jupyter.
 From here you need to use your login.
 
