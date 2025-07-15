@@ -31,9 +31,24 @@ parts:
 
     - file: some_content/workflows.md
       sections:
-      - file: some_content/workflows/climate_change.ipynb
-      - file: some_content/workflows/discharge.ipynb
-      - file: some_content/workflows/flooding.ipynb
+      - file: some_content/workflows/running_a_model.md
+        sections:
+        - file: some_content/workflows/running_a_model/climate_change.ipynb
+        - file: some_content/workflows/running_a_model/discharge.ipynb
+        - file: some_content/workflows/running_a_model/flooding.ipynb
+
+      - file: some_content/workflows/calibrating_models.md
+        sections:
+          - file: some_content/workflows/calibrating_models/calibrate_hbv.ipynb
+
+      - file: some_content/workflows/comparisons.md
+        sections:
+          - file: some_content/workflows/comparisons/1_forcing_multiple_models.ipynb
+          - file: some_content/workflows/comparisons/1_model_multiple_forcings.ipynb
+
+      - file: some_content/workflows/model_coupling.md
+
+      - file: some_content/workflows/DA.md
 
     - file: references.md
     - file: credits.md

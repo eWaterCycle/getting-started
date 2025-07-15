@@ -161,9 +161,10 @@ Sub-grid variability is taken into account as follows:
 
 ### Outputs
 
-- daily discharge
+- discharge
 - ground water
-- 
+- evaporation
+- abstraction
 
 ### Model Needs
 
