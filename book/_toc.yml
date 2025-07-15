@@ -35,9 +35,8 @@ parts:
         - external: https://github.com/eWaterCycle/ewatercycle-pcrglobwb/blob/main/docs/Irrigation.ipynb
       - file: some_content/models/wflow.md
         sections:
-        - file: some_content/placeholder.md
-        #- external: https://github.com/eWaterCycle/ewatercycle-wflowjl/blob/main/docs/demo.ipynb
-        #- external: https://github.com/eWaterCycle/ewatercycle-wflow/blob/main/docs/model.ipynb
+        - external: https://github.com/eWaterCycle/ewatercycle-wflowjl/blob/main/docs/demo.ipynb
+        - external: https://github.com/eWaterCycle/ewatercycle-wflow/blob/main/docs/model.ipynb
 
     - file: some_content/workflows.md
       sections:
