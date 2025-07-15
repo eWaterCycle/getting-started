@@ -27,11 +27,11 @@ parts:
       sections:
       - file: some_content/models/hbv.md
         sections:
-#        - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
+        - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
         - external: https://github.com/eWaterCycle/ewatercycle-hbv/blob/main/docs/example_model_run_HBV_camels_catchment_ERA5_forcing.ipynb
       - file: some_content/models/pcr.md
         sections:
-#        - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+        - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
         - external: https://github.com/eWaterCycle/ewatercycle-pcrglobwb/blob/main/docs/Irrigation.ipynb
       - file: some_content/models/wflow.md
         sections:
