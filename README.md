@@ -12,26 +12,29 @@ It is meant to be used as a teachbook, which can be found [here](https://www.ewa
   - Interface
   - Hello World: Running an HBV Model
 - Different Forcing Data Generation
-  - Caravan forcing data
+  - Camels Forcing using Caravan
   - ERA5 reanalysis
     - Shapefile you made yourself
     - Shapefile from Caravan dataset
   - CMIP6 historical data
+  - CMIP6 future data
   - Manual data input
 - Different Models
   - HBV
   - PCRGlobWB
   - Wflow
 - Workflows
-  - Default Workflow
+  - Running a Model
     - Flooding
     - Drought
-    - Discharge
-  - Climate change
-    - Regional
-    - Study of a Bigger Area
+    - Climate change
   - Calibrating Models
     - HBV
+  - Comparisons
+    - 1 model, multiple forcings
+    - 1 forcing, multiple models
+  - Model Coupling
+  - Data Analysis
 
 
 

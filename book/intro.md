@@ -58,12 +58,14 @@ From here you need to use your login.
   - PCRGlobWB
   - Wflow
 - Workflows
-  - Default Workflow
-    - Discharge
-      - Flooding
-      - Drought
-  - Climate change
-    - Regional
-    - Study of a Bigger Area
+  - Running a Model
+    - Flooding
+    - Drought
+    - Climate change
   - Calibrating Models
     - HBV
+  - Comparisons
+    - 1 model, multiple forcings
+    - 1 forcing, multiple models
+  - Model Coupling
+  - Data Analysis

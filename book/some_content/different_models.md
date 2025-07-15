@@ -176,6 +176,7 @@ Sub-grid variability is taken into account as follows:
   * landmask
     * there are some presets available on /data/parameter-sets/pcrglobwb_global
 
+A [GitHub page](https://github.com/UU-Hydro/PCR-GLOBWB_input_example) on the inputs for PCRGlobWB 2.0.
 
 ## Wflow
 
