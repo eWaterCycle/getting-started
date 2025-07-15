@@ -1,6 +1,7 @@
 # Different Models
 
-Here we will show you the different models that are available in eWaterCycle and what their needs and benefits are.
+Here we will show you the different models that are available in eWaterCycle and what their benefits, outputs and needs are.
+The outputs will be in daily form, unless mentioned otherwise.
 **NOTE** the following notebooks are from their respective GitHub pages and are not meant for this getting started guide specifically.
 
 ## HBV 
@@ -106,11 +107,11 @@ With the abbreviations:
 ### Benefits
 
 - easy/fast to use
-- allows for ...
+- good for climate change research regarding flooding/droughts
 
 ### Outputs
 
-- daily discharge
+- discharge
 
 ### Model Needs
 
@@ -157,7 +158,8 @@ Sub-grid variability is taken into account as follows:
 
 ### Benefits
 
-- more detailed results
+- many output variables
+- questionable but more accurate results
 
 ### Outputs
 
@@ -211,3 +213,17 @@ A [GitHub page](https://github.com/UU-Hydro/PCR-GLOBWB_input_example) on the inp
 ## Wflow
 
 Let us start with the documentation of Wflow, which is available [here](https://wflow.readthedocs.io/en/latest/).
+
+### Benefits
+
+### Outputs
+
+### Model Needs
+
+* Forcing
+  * Precipitation
+  * Temperature
+  * Evapotranspiration
+* Parameter set
+  * [to-do]
+
