@@ -31,8 +31,8 @@ It is meant to be used as a teachbook, which can be found [here](https://www.ewa
   - Calibrating Models
     - HBV
   - Comparisons
-    - 1 model, multiple forcings
-    - 1 forcing, multiple models
+    - 1 Model, Multiple Forcings
+    - 1 Forcing, Multiple Models
   - Model Coupling
   - Data Analysis
 

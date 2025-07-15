@@ -161,10 +161,40 @@ Sub-grid variability is taken into account as follows:
 
 ### Outputs
 
-- discharge
-- ground water
-- evaporation
-- abstraction
+PCRGlobWB has many different outputs:
+
+| Variables                                   | Variables                                       | Variables                                         | Variables                                     |
+|---------------------------------------------|-------------------------------------------------|---------------------------------------------------|-----------------------------------------------|
+| accumulated_land_surface_baseflow           | accumulated_land_surface_runoff                 | accumulated_total_surface_runoff                  | bare_soil_evaporation                         |
+| baseflow                                    | bottom_elevation_of_lowermost_layer             | bottom_elevation_of_uppermost_layer               | channel_storage                               |
+| consumptive_water_use_for_irrigation_demand | consumptive_water_use_for_non_irrigation_demand | desalination_source_abstraction                   | desalination_source_abstraction_volume        |
+| direct_runoff                               | discharge                                       | domesticWaterConsumptionVolume                    | domesticWaterWithdrawalVolume                 |
+| evaporation_from_irrigation                 | evaporation_from_irrigation_volume              | flood_innundation_depth                           | flood_innundation_volume                      |
+| fossil_groundwater_abstraction              | fossil_groundwater_storage                      | fraction_of_desalinated_water_allocation          | fraction_of_non_fossil_groundwater_allocation |
+| fraction_of_other_water_source_allocation   | fraction_of_surface_water                       | fraction_of_surface_water_allocation              | groundwater_capillary_rise                    |
+| groundwater_depth_for_layer_1               | groundwater_depth_for_layer_2                   | groundwater_depth_for_top_layer                   | groundwater_head_for_layer_1                  |
+| groundwater_head_for_layer_2                | groundwater_head_for_top_layer                  | groundwater_recharge                              | groundwater_storage                           |
+| groundwater_thickness_estimate              | groundwater_volume_estimate                     | industryWaterConsumptionVolume                    | industryWaterWithdrawalVolume                 |
+| industry_water_withdrawal                   | infiltration                                    | interception_evaporation                          | interception_storage                          |
+| interflow                                   | irrigationWaterWithdrawalVolume                 | irrigation_gross_demand                           | irrigation_gross_demand_volume                |
+| irrigation_withdrawal                       | lake_and_reservoir_storage                      | land_surface_actual_evaporation                   | land_surface_evaporation                      |
+| land_surface_evaporation_fraction           | land_surface_potential_evaporation              | land_surface_runoff                               | land_surface_water_balance                    |
+| livestockWaterConsumptionVolume             | livestockWaterWithdrawalVolume                  | livestock_water_withdrawal                        | local_water_body_flux                         |
+| lower_soil_saturation_degree                | lower_soil_storage                              | lower_soil_transpiration                          | netLqWaterToSoil_at_irrigation                |
+| netLqWaterToSoil_at_irrigation_volume       | net_liquid_water_to_soil                        | non_fossil_groundwater_abstraction                | non_irrigation_gross_demand                   |
+| non_irrigation_gross_demand_volume          | non_paddy_irrigation_withdrawal                 | paddy_irrigation_withdrawal                       | precipitation                                 |
+| precipitation_at_irrigation                 | precipitation_at_irrigation_volume              | reference_potential_evaporation                   | relativeGroundwaterHead                       |
+| return_flow_from_groundwater_abstraction    | return_flow_from_irrigation_demand_withdrawal   | return_flow_from_non_irrigation_demand_withdrawal | snow_free_water                               |
+| snow_free_water_evaporation                 | snow_melt                                       | snow_water_equivalent                             | surface_water_abstraction                     |
+| surface_water_abstraction_volume            | surface_water_level                             | surface_water_storage                             | temperature                                   |
+| top_elevation_of_uppermost_layer            | top_water_layer                                 | top_water_layer_evaporation                       | totalPotentialMaximumGrossDemand              |
+| total_abstraction                           | total_evaporation                               | total_evaporation_fraction                        | total_fraction_water_allocation               |
+| total_gross_demand                          | total_gross_demand_volume                       | total_groundwater_abstraction                     | total_groundwater_abstraction_volume          |
+| total_groundwater_storage                   | total_thickness_of_active_water_storage         | total_thickness_of_water_storage                  | total_transpiration                           |
+| total_volume_of_water_storage               | total_runoff                                    | transpiration_from_irrigation                     | transpiration_from_irrigation_volume          |
+| upper_soil_saturation_degree                | upper_soil_storage                              | upper_soil_transpiration                          | water_body_actual_evaporation                 |
+| water_body_evaporation_fraction             | water_body_potential_evaporation                |                                                   |                                               |
+
 
 ### Model Needs
 
