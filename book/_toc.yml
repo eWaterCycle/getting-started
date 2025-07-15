@@ -54,8 +54,8 @@ parts:
       - file: some_content/workflows/comparisons.md
         sections:
           - file: some_content/workflows/comparisons/1_forcing_multiple_models.ipynb
-            sections:
-              - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+#            sections:
+#              - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
           - file: some_content/workflows/comparisons/1_model_multiple_forcings.ipynb
 
       - file: some_content/workflows/model_coupling.md
