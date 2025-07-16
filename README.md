@@ -34,7 +34,7 @@ It is meant to be used as a teachbook, which can be found [here](https://www.ewa
     - 1 Model, Multiple Forcings
     - 1 Forcing, Multiple Models
   - Model Coupling
-  - Data Analysis
+  - Data Assimilation
 
 
 
