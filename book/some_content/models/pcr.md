@@ -1,4 +1,4 @@
-# PCRGlobWB
+# PCRGlobWB 1.0
 
 Here are 2 cases of using PCRGlobWB
 

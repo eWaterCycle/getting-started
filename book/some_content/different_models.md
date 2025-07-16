@@ -10,11 +10,11 @@ HBV (Hydrologiska Byråns Vattenbalansavdelning) is a conceptual hydrological mo
 The actual model implemented here sit looks most like the original model from [1976](https://urn.kb.se/resolve?urn=urn:nbn:se:smhi:diva-5738).
 
 The model simplifies the entire water cycle into a few key processes and splits them up in five buckets:
-- Snow
-- Interception
-- Soil moisture
-- Slow saturation zone
-- Fast saturation zone
+* Snow reservoir
+* Interception reservoir
+* Unsaturated reservoir
+* Fast reservoir
+* Slow reservoir
 
 These buckets can be seen as reservoirs that store water and release it based on the catchment characteristics.
 
@@ -106,8 +106,15 @@ With the abbreviations:
 
 ### Benefits
 
-- easy/fast to use
-- good for climate change research regarding flooding/droughts
+* A well-established, conceptual model ideal for simple catchment-scale studies.
+* Easy to set up and fast to run, making it great for:
+  * Academic research,
+  * Education and training,
+  * First-look flood modeling.
+* Requires minimal data; good for data-scarce regions.
+* Calibrated models are robust for flood forecasting and climate impact assessments.
+* Suitable for hydrologists who prefer a lightweight, proven model with a long history of application.
+
 
 ### Outputs
 
@@ -158,8 +165,11 @@ Sub-grid variability is taken into account as follows:
 
 ### Benefits
 
-- many output variables
-- questionable but more accurate results
+* A physically-based, global hydrological model designed for large-scale water balance studies.
+* Ideal for modeling water availability, groundwater dynamics, and human water use (e.g., irrigation, reservoirs).
+* Used in scientific publications and global water assessments (e.g., ISIMIP, World Resources Institute).
+* Strong for long-term scenario analysis under climate and socio-economic change.
+* Supports multi-decadal simulations and integrates with Earth system models.
 
 ### Outputs
 
@@ -205,18 +215,33 @@ PCRGlobWB has many different outputs:
   * Temperature
 * [Parameter set](https://ewatercycle.readthedocs.io/en/latest/system_setup.html#prepare-other-parameter-sets)
   * cloneMap
-  * landmask
-    * there are some presets available on /data/parameter-sets/pcrglobwb_global
+    * We have the needed data stored, you just need to give it your region.
 
 A [GitHub page](https://github.com/UU-Hydro/PCR-GLOBWB_input_example) on the inputs for PCRGlobWB 2.0.
 
 ## Wflow
 
 Let us start with the documentation of Wflow, which is available [here](https://wflow.readthedocs.io/en/latest/).
+Wflow is developed my Deltares. 
 
 ### Benefits
 
+* Ideal for catchment to regional-scale modeling with high spatial detail.
+* More flexible and extensible than HBV or PCR-GLOBWB.
+* Better for operational and real-time forecasting scenarios.
+* Uses modern formats (NetCDF, YAML) and integrates easily into scientific workflows (e.g., eWaterCycle).
+* Strong support for modularity, making it easier to adapt to specific hydrological or climatic contexts.
+
 ### Outputs
+
+* Discharge
+* Precipitation
+* Evapotranspiration
+* Runoff
+* Soil moisture
+* Storage – groundwater, snow, canopy, etc.
+* Infiltration and percolation
+* Snow water equivalent – if snow processes are modeled
 
 ### Model Needs
 
