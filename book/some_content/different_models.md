@@ -222,12 +222,14 @@ A [GitHub page](https://github.com/UU-Hydro/PCR-GLOBWB_input_example) on the inp
 ## Wflow
 
 Let us start with the documentation of Wflow, which is available [here](https://wflow.readthedocs.io/en/latest/).
-Wflow is developed my Deltares. 
+Wflow is a fully distributed, open-source hydrological modeling framework developed by Deltares. 
+It supports multiple process representations (e.g., HBV, SBM, routing) and is designed for both research and operational use, including flood forecasting and water resource management.
+In addition to the standard implementation, Wflow Julia is also available in via WflowJl, offering improved performance and integration with the growing Julia ecosystem for scientific computing.
 
 ### Benefits
 
 * Ideal for catchment to regional-scale modeling with high spatial detail.
-* More flexible and extensible than HBV or PCR-GLOBWB.
+* More flexible and extensible than HBV or PCR-GlobWB.
 * Better for operational and real-time forecasting scenarios.
 * Uses modern formats (NetCDF, YAML) and integrates easily into scientific workflows (e.g., eWaterCycle).
 * Strong support for modularity, making it easier to adapt to specific hydrological or climatic contexts.
@@ -250,5 +252,5 @@ Wflow is developed my Deltares.
   * Temperature
   * Evapotranspiration
 * Parameter set
-  * [to-do]
+  * requires HydroMT [work in progress]
 
