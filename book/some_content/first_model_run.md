@@ -1,10 +1,11 @@
 # Hello World: First Model Run
 
 Here we will go through a first model run with eWaterCycle. 
-First we will walk you through the interface of eWaterCycle, which is a Jupyter Hub.
+First we will walk you through the interface of eWaterCycle, which is a Jupyter Hub environment.
 Then we will run an HBV model with forcing data.
 After that we will look at the different ways of generating forcing data.
 Finally, we will look at the different models that are available in eWaterCycle.
+When you know these steps you can have a look at different workflows.
 
 Below you will find a short overview of the content of this part.
 
