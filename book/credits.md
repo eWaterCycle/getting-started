@@ -3,7 +3,7 @@
 
 You can refer to this book as:
 
-> `<editors>` (`<year>`) _`<title>`_. `<url to book website>`. Source files at `<link to github repo`. CC BY 4.0.
+> `Melotto M., Hut R.` (`2025`) _`Getting Started with eWaterCycle`_. `https://www.ewatercycle.org/getting-started/main/intro.html`. Source files at `https://github.com/eWaterCycle/getting-started`. CC BY 4.0.
 
 You can refer to individual chapters or pages within this book as:
 

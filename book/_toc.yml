@@ -9,22 +9,65 @@ parts:
       - file: some_content/why/what.md
       - file: some_content/why/sowhat.md
 
+    - file: some_content/first_model_run.md
+      sections:
+      - file: some_content/first_model_run/interface.ipynb
+      - file: some_content/first_model_run/first_run.ipynb
 
     - file: some_content/generate_forcing.md
       sections:
       - file: some_content/forcing/caravan_forcing.ipynb
-      - file: some_content/forcing/era5_forcing.ipynb
+      - file: some_content/forcing/era5_forcing_caravan_shapefile.ipynb
+      - file: some_content/forcing/era5_forcing_own_shapefile.ipynb
       - file: some_content/forcing/cmip_historic.ipynb
       - file: some_content/forcing/cmip_future.ipynb
       - file: some_content/forcing/manual_forcing.ipynb
 
+    - file: some_content/different_models.md
+      sections:
+      - file: some_content/models/hbv.md
+        sections:
+        - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/1_HBV_Caravan_ERA5/example_model_run_HBV.ipynb
+        - external: https://github.com/eWaterCycle/ewatercycle-hbv/blob/main/docs/example_model_run_HBV_camels_catchment_ERA5_forcing.ipynb
+      - file: some_content/models/pcr.md
+        sections:
+        - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+        - external: https://github.com/eWaterCycle/ewatercycle-pcrglobwb/blob/main/docs/Irrigation.ipynb
+      - file: some_content/models/wflow.md
+        sections:
+        - external: https://github.com/eWaterCycle/ewatercycle-wflowjl/blob/main/docs/demo.ipynb
+        - external: https://github.com/eWaterCycle/ewatercycle-wflow/blob/main/docs/model.ipynb
 
     - file: some_content/workflows.md
       sections:
-      - file: some_content/workflows/climate_change.ipynb
-      - file: some_content/workflows/discharge.ipynb
-      - file: some_content/workflows/flooding.ipynb
+      - file: some_content/workflows/running_a_model.md
+        sections:
+        - file: some_content/workflows/running_a_model/flooding.md
+          sections:
+          - external: https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER4.ipynb
+        - file: some_content/workflows/running_a_model/droughts.md
+          sections:
+            - external: https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_IschaHollemans_CEG/ischa/CMIP_Future_prediction.ipynb
+        - file: some_content/workflows/running_a_model/climate_change.md
+#          sections:
+#            - external: rolf stuff
+
+      - file: some_content/workflows/calibrating_models.md
+        sections:
+          - file: some_content/workflows/calibrating_models/calibrate_hbv.ipynb
+          - external: https://github.com/eWaterCycle/projects/blob/main/book/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER3OVER_ori.ipynb
+#          - external:
+
+      - file: some_content/workflows/comparisons.md
+        sections:
+          - file: some_content/workflows/comparisons/1_forcing_multiple_models.md
+#            sections:
+#              - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
+          - file: some_content/workflows/comparisons/1_model_multiple_forcings.ipynb
+
+      - file: some_content/workflows/model_coupling.md
+
+      - file: some_content/workflows/DA.md
 
     - file: references.md
-    - file: changelog.md
     - file: credits.md
