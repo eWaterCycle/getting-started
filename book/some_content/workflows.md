@@ -25,7 +25,7 @@ As part of his BSc thesis.
 
 ### HBV
 
-Here Thirza van Esch used RNSE and the Nelder-Mead optimization to calibrate her HBV model for floodings.
+Here Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her HBV model for floodings.
 
 ## Comparisons
 
