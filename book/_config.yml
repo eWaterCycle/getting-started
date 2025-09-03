@@ -55,6 +55,6 @@ sphinx:                                              # Options passed on to the 
 
   html:
     extra_js:
-      - _custom_launch_button.js
+      - _static/custom_launch_button.js
 bibtex_bibfiles: 
   - references.bib                                   # Required for references
