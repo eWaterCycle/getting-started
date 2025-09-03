@@ -1,24 +1,22 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const targetContainer = document.querySelector(".launch-buttons");
+  const header = document.querySelector("header");
 
-  if (targetContainer) {
-    // Create the new button
+  if (header) {
     const customButton = document.createElement("a");
     customButton.textContent = "Launch Custom JupyterHub";
-    customButton.className = "jb-button custom-launch-button";
-    customButton.style.marginLeft = "10px";
+    customButton.className = "custom-launch-button";
     customButton.style.backgroundColor = "#007ACC";
     customButton.style.color = "white";
     customButton.style.padding = "6px 12px";
+    customButton.style.marginLeft = "10px";
     customButton.style.borderRadius = "4px";
     customButton.style.textDecoration = "none";
+    customButton.style.fontWeight = "bold";
 
     // Set your custom URL here
-    const customUrl = "https://your-custom-jupyterhub-url/lab";
-    customButton.href = customUrl;
+    customButton.href = "https://your-custom-jupyterhub-url/lab";
     customButton.target = "_blank";
 
-    // Add the button to the page
-    targetContainer.appendChild(customButton);
+    header.appendChild(customButton);
   }
 });
