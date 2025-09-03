@@ -44,8 +44,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
   launchBtn.addEventListener("click", () => {
     const url = input.value.trim();
-    if (url.startsWith("https://")) {
-      window.open(`${url}/lab`, "_blank");
+    if (url.startsWith("https://") && (url.endsWith(".ewatercycle-tud.src.surf-hosted.nl/jupyter")) ) {
+      window.open(`${url}`, "_blank");
       modal.style.display = "none";
       input.value = "";
     } else {
