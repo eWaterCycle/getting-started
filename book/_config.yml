@@ -35,6 +35,9 @@ sphinx:                                              # Options passed on to the 
         notebook_interface: "jupyterlab"
         thebe: true                                  # Required for live code: https://teachbooks.io/manual/features/live_code.html
 
+    html:
+      extra_js:
+        - _static/custom_launch_button.js
     html_show_copyright: false                       # As the copyright is included in the author field
     html_last_updated_fmt: '%B %-d, %Y'              # Adds the date of the last update to the footer
     html_static_path: ["figures"]                    # Add folder that contain files that need to be included, such as the location of the logo(s)
@@ -53,8 +56,6 @@ sphinx:                                              # Options passed on to the 
     - sphinx_named_colors                            # Allows you to use custom colors in your book https://teachbooks.io/manual/external/Sphinx-Named-Colors/README.html
     - sphinx_dropdown_toggle                         # Adds a button to toggle all dropdowns with one click
 
-  html:
-    extra_js:
-      - _static/custom_launch_button.js
+
 bibtex_bibfiles: 
   - references.bib                                   # Required for references
