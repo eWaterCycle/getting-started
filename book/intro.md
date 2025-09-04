@@ -32,6 +32,12 @@ This video showcases the thought train behind eWaterCycle!
 
 ### How To Get On eWaterCycle
 
+Click the *Launch eWaterCycle JupyterHub* button at the top of your screen.
+It will then ask you to provide a link to your server (it defaults to a server for students).
+Enter your username and password, it will then pull the *getting-started* GitHub page to your account and start at the **first run** notebook.
+
+**OR**
+
 Follow the rocket in the top right: ![launch button](figures/jupyterHub_launch.png) and click on JupyterHub. 
 (Note: this has to be inside a jupyter notebook page on teachbooks **NOTE** this cannot be used in external pages yet)
 This will take you to ![eWC startup page](figures/startup.png) where you need to click Jupyter.
