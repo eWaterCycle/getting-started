@@ -43,9 +43,15 @@ window.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("customModal");
 
   launchBtn.addEventListener("click", () => {
-    const url = input.value.trim();
-    if (url.startsWith("https://") && (url.endsWith(".ewatercycle-tud.src.surf-hosted.nl/jupyter")) ) {
-      window.open(`${url}`, "_blank");
+    const baseUrl = input.value.trim();
+
+    if (baseUrl.startsWith("https://")) {
+      const repo = encodeURIComponent("https://github.com/eWaterCycle/getting-started");
+      const branch = "main";
+      const notebookPath = "book/intro.md"; // Change to your desired notebook
+
+      const nbgitpullerUrl = `${baseUrl}/hub/user-redirect/git-pull?repo=${repo}&branch=${branch}&urlpath=lab/tree/${notebookPath}`;
+      window.open(nbgitpullerUrl, "_blank");
       modal.style.display = "none";
       input.value = "";
     } else {
