@@ -47,8 +47,9 @@ window.addEventListener("DOMContentLoaded", () => {
 
     if (baseUrl.startsWith("https://")) {
       const repo = encodeURIComponent("https://github.com/eWaterCycle/getting-started");
-      const branch = "development";
-      const notebookPath = "getting-started/book/content/first_model_run/first_run.ipynb"; // Change to your desired notebook
+      const branch = "main";
+      // const notebookPath = "getting-started/book/content/first_model_run/first_run.ipynb"; // Change to your desired notebook
+      const notebookPath = "getting-started/book/some_content/first_model_run/first_run.ipynb"; // Change to your desired notebook
 
       const nbgitpullerUrl = `${baseUrl}/hub/user-redirect/git-pull?repo=${repo}&branch=${branch}&urlpath=lab/tree/${notebookPath}`;
       window.open(nbgitpullerUrl, "_blank");
