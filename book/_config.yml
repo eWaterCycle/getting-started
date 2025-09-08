@@ -12,7 +12,7 @@ html:
   favicon : "figures/ewatercycle_logo.png"                 # Replace this with your own favicon
   baseurl :  "https://www.ewatercycle.org/getting-started"          # Replace this with your own URL
   extra_js:
-    - _static/custom_launch_button.js
+    - _static/custom_launch_button.js                 # Adds the custom launch button to the page, so this is needed plus the custom js file, that's it.
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   config:

@@ -1,3 +1,5 @@
+// This code is used to make the launch button on top of the webpage
+
 window.addEventListener("DOMContentLoaded", () => {
   // Create the modal HTML
   const modalHTML = `
