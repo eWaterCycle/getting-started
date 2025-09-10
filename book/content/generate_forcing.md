@@ -14,26 +14,27 @@ Every model needs forcing data, there are several possible ways to get this forc
 
 eWaterCycle supports different types of forcings, currently it supports:
 
-<table>
+<table style="width:100%; border-collapse:collapse; text-align:center;">
   <tr>
-    <td>CaravanForcing</td>
-    <td>DistributedMakkinkForcing</td>
-    <td>DistributedUserForcing</td>
-    <td>GenericDistributedForcing</td>
+    <td style="border:1px solid black;">CaravanForcing</td>
+    <td style="border:1px solid black;">DistributedMakkinkForcing</td>
+    <td style="border:1px solid black;">DistributedUserForcing</td>
+    <td style="border:1px solid black;">GenericDistributedForcing</td>
   </tr>
   <tr>
-    <td>GenericLumpedForcing</td>
-    <td>HypeForcing</td>
-    <td>LisfloodForcing</td>
-    <td>LumpedMakkinkForcing</td>
+    <td style="border:1px solid black;">GenericLumpedForcing</td>
+    <td style="border:1px solid black;">HypeForcing</td>
+    <td style="border:1px solid black;">LisfloodForcing</td>
+    <td style="border:1px solid black;">LumpedMakkinkForcing</td>
   </tr>
   <tr>
-    <td>LumpedUserForcing</td>
-    <td>MarrmotForcing</td>
-    <td>PCRGlobWBForcing</td>
-    <td>WflowForcing</td>
+    <td style="border:1px solid black;">LumpedUserForcing</td>
+    <td style="border:1px solid black;">MarrmotForcing</td>
+    <td style="border:1px solid black;">PCRGlobWBForcing</td>
+    <td style="border:1px solid black;">WflowForcing</td>
   </tr>
 </table>
+
 
 The type of forcing needed is model dependent!
 
