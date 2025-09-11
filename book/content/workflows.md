@@ -41,9 +41,44 @@ Here Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her
 
 [Being worked on]
 
-## Data Analysis
+## Data Assimilation
 
 [Being worked on]
 
+```mermaid
+graph TB
+    A[Working with eWatercycle] -->|Get money| B(Beginner)
+    A --> F{Choosing your Workflow \nChoose Model and accompanying Forcing}
+    
+    B --> |Understand why we use eWaterCycle|C(<a href='https://www.ewatercycle.org/getting-started/main/some_content/first_model_run.html'>Hello World example</a>)
+    
+ 
+    C --> D[<a href='https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html'>Learn different forcings</a>]
+    C --> E[<a href='https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html'>Learn about different models</a>] 
 
+    D --> F
+    E --> F
 
+    F --> G(Future Studies)
+        G --> L(Flooding)
+        G --> M(Droughts)
+            L --> |Calibrate Model For High Peak Flow|O(Get Relevant CMIP Forcing)
+            M --> |Calibrate Model For Low Flow|O
+            O --> P(Analyse Results)
+        
+        G --> N(Climate Change)
+            N --> O
+
+    F --> H(Model Calibration)
+    
+        H --> Q(HBV)
+    
+    F --> I(Comparisons)
+        I --> R(1 Model, Multiple Forcings) --> T
+        I --> S(1 Forcing, Multiple Models) --> T
+    
+    F --> J(Model Coupling)
+        J --> T(Work In Progress)
+    
+    F --> K(Data Assimilation)
+        K --> T
