@@ -1,6 +1,6 @@
 # Different Types of Workflows
 
-Here we will link to research applications using eWaterCycle.
+Here we will link to research applications using eWaterCycle v2.4.
 These are examples of workflows, they might not work with the current version of eWaterCycle.
 
 Here is a quick overview:
