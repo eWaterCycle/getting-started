@@ -47,31 +47,35 @@ Here Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her
 
 ```mermaid
 graph TB
-    A[Working with eWatercycle] -->|Get money| B(Beginner)
+    A[Working with eWatercycle] --> B(Beginner)
     A --> F{Choosing your Workflow \nChoose Model and accompanying Forcing}
     
     B --> |Understand why we use eWaterCycle|C(<a href='https://www.ewatercycle.org/getting-started/main/some_content/first_model_run.html'>Hello World example</a>)
     
  
-    C --> D[<a href='https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html'>Learn different forcings</a>]
-    C --> E[<a href='https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html'>Learn about different models</a>] 
+    C --> D[(<a href='https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html'>Learn different forcings</a>)]
+    C --> E[<a href='https://www.ewatercycle.org/getting-started/main/some_content/different_models.html'>Learn about different models</a>] 
 
     D --> F
     E --> F
 
     F --> G(Future Studies)
-        G --> L(Flooding)
-        G --> M(Droughts)
-            L --> |Calibrate Model For High Peak Flow|O(Get Relevant CMIP Forcing)
-            M --> |Calibrate Model For Low Flow|O
-            O --> P(Analyse Results)
-        
         G --> N(Climate Change)
             N --> O
+        G --> L(Flooding)
+        G --> M(Droughts)
+            L --> O[(Get Relevant CMIP Forcing)]
+            L -. HBV? Calibrate Model For High Peak Flow .-> H 
+            M --> O
+            M -. HBV? Calibrate Model For Low Peak Flow .-> H 
+            O --> P(Analyse Results)
+        
+        
 
     F --> H(Model Calibration)
     
         H --> Q(HBV)
+        Q -. Flood/Drought .-> O
     
     F --> I(Comparisons)
         I --> R(1 Model, Multiple Forcings) --> T
