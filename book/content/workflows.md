@@ -64,10 +64,13 @@ graph TB
             N --> O
         G --> L(Flooding)
         G --> M(Droughts)
-            L --> O[(Get Relevant CMIP Forcing)]
-            L -. HBV? Calibrate Model For High Peak Flow .-> H 
-            M --> O
-            M -. HBV? Calibrate Model For Low Peak Flow .-> H 
+            L --> AA[[No Calibration Needed]] 
+            AA --> O[(Get Relevant CMIP Forcing)]
+            L --> BB[[Calibration Needed?]] 
+            BB -->  H 
+            M --> AA
+            
+            M --> BB 
             O --> P(Analyse Results)
         
         
