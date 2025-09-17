@@ -48,7 +48,8 @@ Here Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her
 ```mermaid
 graph TB
     A[Working with eWatercycle] --> B(Beginner)
-    A --> F{Choosing your Workflow \nChoose Model and accompanying Forcing}
+    A --> F{Choosing your Workflow 
+    Choose Model and accompanying Forcing}
     
     B --> |Understand why we use eWaterCycle|C(<a href='https://www.ewatercycle.org/getting-started/main/some_content/first_model_run.html'>Hello World example</a>)
     
