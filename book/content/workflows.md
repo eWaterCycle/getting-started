@@ -79,7 +79,7 @@ graph TB
     F --> H(Model Calibration)
     
         H --> Q(HBV)
-        Q -. Flood/Drought .-> O
+        Q -.-> O
     
     F --> I(Comparisons)
         I --> R(1 Model, Multiple Forcings) --> T
