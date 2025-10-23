@@ -45,13 +45,13 @@ window.addEventListener("DOMContentLoaded", () => {
   const modal = document.getElementById("customModal");
 
   launchBtn.addEventListener("click", () => {
-    const baseUrl = input.value.trim();
+    const baseUrl = "https://ewatercycleaf.ewatercycle-tud.src.surf-hosted.nl";
 
     if (baseUrl.startsWith("https://")) {
-      const repo = encodeURIComponent("https://github.com/eWaterCycle/getting-started");
-      const branch = "main";
+      const repo = encodeURIComponent("https://github.com/eWaterCycle/projects");
+      const branch = "workshops";
       // const notebookPath = "getting-started/book/content/first_model_run/first_run.ipynb"; // Change to your desired notebook
-      const notebookPath = "getting-started/book/some_content/first_model_run/first_run.ipynb"; // Change to your desired notebook
+      const notebookPath = "projects/book/tutorial_examples/4_Ghana/1_HBV_Ghana.ipynb"; // Change to your desired notebook
 
       const nbgitpullerUrl = `${baseUrl}/hub/user-redirect/git-pull?repo=${repo}&branch=${branch}&urlpath=lab/tree/${notebookPath}`;
       window.open(nbgitpullerUrl, "_blank");
