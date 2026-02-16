@@ -72,5 +72,6 @@ parts:
       - file: content/workflows/DA.md
 
     - file: content/glossary/definitions.md
+    - file: content/glossary/workflow_chart.md
     - file: references.md
     - file: credits.md

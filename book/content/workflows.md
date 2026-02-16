@@ -25,13 +25,16 @@ As part of his BSc thesis.
 
 ### HBV
 
-Here Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her HBV model for floodings.
+[Here](https://www.ewatercycle.org/projects/main/thesis_projects/BSc/2025_Q3_ThirzaVanEsch_CEG/Report/CHAPTER3OVER.html#calibration) Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her HBV model for floodings.
 
 ## Comparisons
 
 ### 1 Model, Multiple Forcings
 
-[Being worked on]
+In a climate change analysis we use multiple forcings with the same HBV model.
+The model is calibrated on the ERA5 dataset as input data which is checked against the discharge that is provided by the CAMELS dataset.
+This calibrated HBV model is then used together with CMIP6 climate scenarios, and the results are analyzed.
+See the results [here](https://www.ewatercycle.org/projects/main/thesis_projects/Research/eWaterCycle-ClimateChangeImpact/second_results/hysets_02481510/step_4_analyse_executed.html).
 
 ### 1 Forcing, Multiple Models
 
@@ -45,48 +48,3 @@ Here Thirza van Esch used RMSE and the Nelder-Mead optimization to calibrate her
 
 [Being worked on]
 
-```mermaid
-graph TB
-    A[Working with eWatercycle] --> B(Beginner)
-    A --> F{Choosing your Workflow 
-    Choose Model and accompanying Forcing}
-    
-    B --> |Understand why we use eWaterCycle|C(<a href='https://www.ewatercycle.org/getting-started/main/some_content/first_model_run.html'>Hello World example</a>)
-    
- 
-    C --> D[(<a href='https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html'>Learn different forcings</a>)]
-    C --> E[<a href='https://www.ewatercycle.org/getting-started/main/some_content/different_models.html'>Learn about different models</a>] 
-
-    D --> F
-    E --> F
-
-    F --> G(Future Studies)
-        G --> N(Climate Change)
-            N --> O
-        G --> L(Flooding)
-        G --> M(Droughts)
-            L --> AA[[No Calibration Needed]] 
-            AA --> O[(Get Relevant CMIP Forcing)]
-            L --> BB[[Calibration Needed?]] 
-            BB -->  H 
-            M --> AA
-            
-            M --> BB 
-            O --> P(Analyse Results)
-        
-        
-
-    F --> H(Model Calibration)
-    
-        H --> Q(HBV)
-        Q -.-> O
-    
-    F --> I(Comparisons)
-        I --> R(1 Model, Multiple Forcings) --> T
-        I --> S(1 Forcing, Multiple Models) --> T
-    
-    F --> J(Model Coupling)
-        J --> T(Work In Progress)
-    
-    F --> K(Data Assimilation)
-        K --> T
