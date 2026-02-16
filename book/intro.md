@@ -12,25 +12,25 @@ $
 \text{Choose region & design experiment} \rightarrow \text{get forcing} \rightarrow \text{setup model} \rightarrow \text{analyse results}
 $
 
-First in designing your experiment you need to think about the model(s) you want use.
-Also of course the region or regions you want to do research in are important.
-This then leads to the 2 essential steps in eWaterCycle: getting the forcing data for your region & running the model(s).
+First, in designing your experiment you need to think about the model(s) you want use, the region or regions you want to do research in are also important.
+This then leads to the 2 essential steps in eWaterCycle: getting the forcing (input) data for your region & running the model(s).
 The input for different models differ, a quick example of using eWaterCycle can be found [here](https://www.ewatercycle.org/getting-started/main/some_content/first_model_run.html), and it is recommended that you start here.
 It explains the default workflow quickly and from there you can make alterations to learn to work with the platform.
 
 Once you understand the basics you can change the region ([using Caravan](https://www.ewatercycle.org/getting-started/main/some_content/forcing/era5_forcing_caravan_shapefile.html), or [your own shapefile](https://www.ewatercycle.org/getting-started/main/some_content/forcing/era5_forcing_own_shapefile.html) for example) and change the model you use.
 Analyzing your results will depend on your workflow, but some examples can be found in the [workflows](https://www.ewatercycle.org/getting-started/main/some_content/workflows.html).
 For advanced workflows one can also couple models.
-This GitHub repository will host some basic workflows and it will link to external, more complicated, workflows.
+This GitHub repository will host some basic workflows, and it will link to external, more complicated, workflows.
+These workflows are meant to kickstart your journey with eWaterCycle.
 
 More info on the different models that we support and what they need can be found [here](https://www.ewatercycle.org/getting-started/main/some_content/different_models.html).
 Generating the forcing data is done shown [here](https://www.ewatercycle.org/getting-started/main/some_content/generate_forcing.html). 
 This is the same for every model only the user needs to know what type of forcing and variables are needed for their chosen model(s).
 After the forcing is generated the user can use different workflows, explained [here](https://www.ewatercycle.org/getting-started/main/some_content/workflows.html).
 
-### Youtube video of eWaterCycle 1.0 (currently 2.4)
+### YouTube video of eWaterCycle 1.0 (currently 2.4)
 This video showcases the thought train behind eWaterCycle!
-[![Youtube video of eWaterCycle 1.0 (currently 2.4)](https://img.youtube.com/vi/eE75dtIJ1lk/0.jpg)](https://www.youtube.com/watch?v=eE75dtIJ1lk)
+[![YouTube video of eWaterCycle 1.0 (currently 2.4)](https://img.youtube.com/vi/eE75dtIJ1lk/0.jpg)](https://www.youtube.com/watch?v=eE75dtIJ1lk)
 
 ### How To Get On eWaterCycle
 
@@ -46,7 +46,9 @@ Enter your username and password, it will then pull the *getting-started* GitHub
   From here you need to use your login.
 
 ## Contents
-[TO DO]
+
+A quick overview, this can be seen on the left bar of this teachbook.
+
 - Why eWaterCycle?
   - What is eWaterCycle?
   - So Why Use eWaterCycle?
