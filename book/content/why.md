@@ -8,7 +8,8 @@ There was a clear need for a modern platform that supports transparent, reproduc
 eWaterCycle has been developed to take away programming and compatibility issues within hydrological modelling.
 It is designed in a FAIR (Findable Accessible Interoperable Reusable) way.
 Many models use different input/outputs formats, making interoperability hard.
+Different models use different programming languages.
 This is what eWaterCycle changes.
-It utilizes the Basic Model Interface (BMI) to improve interoperability between all the models.
+It utilizes the Basic Model Interface (BMI) to improve interoperability between all the models we support currently.
 
 
