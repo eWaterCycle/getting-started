@@ -44,3 +44,24 @@ The forcing object in eWaterCycle has some properties:
 - directory, which is a path
 - shapefile, also a path pointing to the shapefile, it also needs the accompanying files (so .shp + .cpg, .prj, .dbf, .shx)
 - filenames, a dictionary containing the paths to the netCDF files where the data is stored for that variable
+- dataset, which I will cover in more detail below.
+
+### Technical Details
+
+This is for advanced users that will need to use different datasets.
+The dataset parameter is used for different recipes from ESMValTool and where the data is situated at our data disk.
+So for the ERA5 data we use ``dataset='ERA5'`` which calls this dataset object:
+```python
+{
+  "ERA5": Dataset(
+          dataset="ERA5",
+          project="OBS6",
+          tier=3,
+          type="reanaly",
+          version=1,
+  )
+}
+```
+
+When using your own forcing, different datasets, or you need Eday data like evaporation from ERA5 you might need to check this out, it is listed [here on GitHub](https://github.com/eWaterCycle/ewatercycle/blob/main/src/ewatercycle/esmvaltool/datasets.py).
+You can always as the maintainers for help.
