@@ -1,9 +1,10 @@
 # Workflow Chart
 
-Here is a mermaid chart, that is currently broken.
+Here is a mermaid chart, that is currently broken in teachbooks.
+But can be found rendered on [GitHub](https://github.com/eWaterCycle/getting-started/blob/main/book/content/glossary/workflow_chart.md).
 
 ```mermaid
-flowchart TD
+graph TD
     A[Working with eWatercycle] --> B(Beginner)
     A --> F{Choosing your Workflow \nChoose Model and accompanying Forcing}
     
