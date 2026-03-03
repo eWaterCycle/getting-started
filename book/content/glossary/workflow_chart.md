@@ -1,7 +1,7 @@
 # Workflow Chart
 
 ```mermaid
-graph TB
+graph TD;
     A[Working with eWatercycle] --> B(Beginner)
     A --> F{Choosing your Workflow \nChoose Model and accompanying Forcing}
     
