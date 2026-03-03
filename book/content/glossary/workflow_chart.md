@@ -1,7 +1,9 @@
 # Workflow Chart
 
+Here is a mermaid chart, that is currently broken.
+
 ```mermaid
-graph TB
+flowchart TD
     A[Working with eWatercycle] --> B(Beginner)
     A --> F{Choosing your Workflow \nChoose Model and accompanying Forcing}
     
