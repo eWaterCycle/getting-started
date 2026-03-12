@@ -1,6 +1,7 @@
 # Getting Started With eWaterCycle
 
-##### Welcome to eWaterCycle!
+## Welcome to eWaterCycle!
+
 A more detailed introduction can be found in the [why](https://www.ewatercycle.org/getting-started/main/some_content/why.html), [what](https://www.ewatercycle.org/getting-started/main/some_content/why/what.html) and [so what](https://www.ewatercycle.org/getting-started/main/some_content/why/sowhat.html) explaining what the platform is in more detail.
 The quick version; eWaterCycle is a platform for hydrological modelling developed by hydrologists and research software engineers.
 This is done to take away interoperability/compatibility issues hydrologists face, so they can perform their research more easily.
@@ -44,6 +45,16 @@ Enter your username and password, it will then pull the *getting-started* GitHub
   (Note: this has to be inside a jupyter notebook page on teachbooks **NOTE** this cannot be used in external pages yet)
   This will take you to ![eWC startup page](figures/startup.png) where you need to click Jupyter.
   From here you need to use your login.
+
+## Projects
+
+Numerous studies have been done using eWaterCycle, they can be found on the [projects page](https://www.ewatercycle.org/projects/main/intro.html).
+This can kickstart your research, by learning from what others have already done!
+
+## Workshops
+
+We also have some workshops that can be found on the [workshop page](https://www.ewatercycle.org/workshops/main/intro.html).
+This is also a good place to start using eWaterCycle as a beginner, as it runs through all the basic steps.
 
 ## Contents
 
