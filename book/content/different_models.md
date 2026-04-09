@@ -216,7 +216,7 @@ PCRGlobWB has many different outputs:
 * [Parameter set](https://ewatercycle.readthedocs.io/en/latest/system_setup.html#prepare-other-parameter-sets)
   * cloneMap
     * We have the needed data stored, you just need to give it your region.
-
+  * .ini file with the settings, a standard.ini file will be provided.
 A [GitHub page](https://github.com/UU-Hydro/PCR-GLOBWB_input_example) on the inputs for PCRGlobWB 2.0.
 
 ## Wflow

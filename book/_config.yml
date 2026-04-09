@@ -11,6 +11,8 @@ only_build_toc_files: true                           # Replace this with false i
 html:
   favicon : "figures/ewatercycle_logo.png"                 # Replace this with your own favicon
   baseurl :  "https://www.ewatercycle.org/getting-started"          # Replace this with your own URL
+  extra_js:
+    - _static/custom_launch_button.js                 # Adds the custom launch button to the page, so this is needed plus the custom js file, that's it.
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   config:
@@ -51,6 +53,7 @@ sphinx:                                              # Options passed on to the 
     - teachbooks_sphinx_tippy                        # Enables hoover over tips https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html
     - sphinx_named_colors                            # Allows you to use custom colors in your book https://teachbooks.io/manual/external/Sphinx-Named-Colors/README.html
     - sphinx_dropdown_toggle                         # Adds a button to toggle all dropdowns with one click
+
 
 bibtex_bibfiles: 
   - references.bib                                   # Required for references

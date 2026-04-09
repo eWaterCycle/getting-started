@@ -17,8 +17,10 @@ The coupling of models paired with our seamless integration of data sources, vis
 - Access and preprocess input data seamlessly.
 - Reproduce results and share workflows across institutions.
 - Follow FAIR data principles, enhancing trust and transparency.
+- Share their analysis via jupyter notebooks that can be shown in teachbooks, like this one.
 
 The platform is designed with researchers in mind, enabling both simple experiments and complex coupled simulations.
+With Jupyter notebooks for easy Python analysis.
 
 ## More Technical Details
 
