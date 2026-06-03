@@ -11,6 +11,7 @@ Every model needs forcing data, there are several possible ways to get this forc
 - CMIP6 historical data
 - CMIP6 future data
 - Manual data input
+- GRDC discharge observations
 
 eWaterCycle supports different types of forcings, currently it supports:
 
@@ -45,6 +46,11 @@ The forcing object in eWaterCycle has some properties:
 - shapefile, also a path pointing to the shapefile, it also needs the accompanying files (so .shp + .cpg, .prj, .dbf, .shx)
 - filenames, a dictionary containing the paths to the netCDF files where the data is stored for that variable
 - dataset, which I will cover in more detail below.
+
+## Observations
+
+It is also possible to use GRDC discharge observations to use as ground truth in your research. 
+We support various GRDC stations already, if your data is not on the server but on the GRDC data storage, please ask an admin to help you.
 
 ### Technical Details
 
