@@ -19,6 +19,7 @@ It is meant to be used as a teachbook, which can be found [here](https://www.ewa
   - CMIP6 historical data
   - CMIP6 future data
   - Manual data input
+  - GRDC observation data
 - Different Models
   - HBV
   - PCRGlobWB
