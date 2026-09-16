@@ -67,6 +67,8 @@ parts:
 #            sections:
 #              - external: https://github.com/eWaterCycle/projects/blob/main/book/tutorials_examples/2_HBV_PCRGlobWB_ERA5/example_model_run_pcrglobwb.ipynb
           - file: content/workflows/comparisons/1_model_multiple_forcings.ipynb
+            sections:
+              - external: https://github.com/eWaterCycle/ewatercycle-destine/blob/main/docs/forcings_with_hbv.ipynb
 
       - file: content/workflows/model_coupling.md
 
